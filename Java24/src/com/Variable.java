@@ -13,5 +13,7 @@ class Variable
 		short roomNumber = 222; // short can be used for integer values that range from -32,768 to 32,767
 		long govtBailout = 7000000; // long can be used for integer values that range from -9.22 quintillion to 9.22 quintillion
 		boolean gameOver = false; // true or false values only
+		
+		System.out.println("Hello World!");
 	}
 }
