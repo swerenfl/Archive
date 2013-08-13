@@ -21,13 +21,13 @@ public class FileScanner
 	public static void main(String[] args)
 	{	
 		
-		//Setup logging. Outputs to C:\Eclipse\workspace\FileScanner\extra\FileScanner_LogFile.txt
+		//Setup logging. Outputs to C:\Git\Personal\FileScanner\extra\FileScanner_LogFile.txt
 		Logger logger = Logger.getLogger("MyLog");  
 		FileHandler fh;  
 		try 
 		{  
 			int limit = 100000000;
-			fh = new FileHandler("C:\\Eclipse\\workspace\\FileScanner\\extra\\FileScanner_LogFile.txt", limit, 1);  
+			fh = new FileHandler("C:\\Git\\Personal\\FileScanner\\extra\\FileScanner_LogFile.txt", limit, 1);  
 			logger.addHandler(fh);  
 			fh.setFormatter
 			(
@@ -110,7 +110,7 @@ public class FileScanner
 				day = "630PM";
 			}
 			
-			File filename = new File("C:\\Eclipse\\workspace\\FileScanner\\extra\\PickList" + day + ".txt");
+			File filename = new File("C:\\Git\\Personal\\FileScanner\\extra\\PickList" + day + ".txt");
 			
 			if (filename.exists())
 			{

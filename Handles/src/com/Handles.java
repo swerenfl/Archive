@@ -40,7 +40,7 @@ public class Handles
 		try 
 		{  
 			int limit = 100000000;
-			fh = new FileHandler("C:\\Eclipse\\workspace\\Handles\\extra\\ListHistory_LogFile.txt", limit, 1);
+			fh = new FileHandler("C:\\Git\\Personal\\Handles\\extra\\ListHistory_LogFile.txt", limit, 1);
 			logger.addHandler(fh);
 			fh.setFormatter(new Formatter()
 			{   
@@ -88,7 +88,7 @@ public class Handles
 		//Opening file
 		try
 		{
-			File filename = new File("C:\\Eclipse\\workspace\\Handles\\extra\\ListHistory.txt");
+			File filename = new File("C:\\Git\\Personal\\Handles\\extra\\ListHistory.txt");
 
 			if (filename.exists())
 			{
