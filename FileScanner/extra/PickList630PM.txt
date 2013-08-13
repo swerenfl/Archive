@@ -1,0 +1,3000 @@
+TMSS0001N-18:30:00 TMSS10MoveList (c) GazillaByte Pty Ltd 1999-2010
+TMSS0002N-18:30:00 Compiled Nov 24 2010 at 08:28:16
+TMSS0006N-18:30:00 Running Under Windows Vista/Longhorn (build 6002 6.00 Service Pack 2) on platform i686
+TMSS0000N-18:30:00 Host is Little Endian
+TMSS0004N-18:30:00 Today is Sunday, October 21, 2012
+TMSS0005N-18:30:00 Running on dc1
+TMSS0006N-18:30:00 Process ID 42748
+TMSS0002N-18:30:00 Program Options:
+TMSS0002N-18:30:00 	(S) Server=localhost
+TMSS0002N-18:30:00 	(V) Volume Filter=*.*.*
+TMSS0002N-18:30:00 	(X) Exclusion file=
+TMSS0002N-18:30:00 	(a) Actual Repository Filter=*
+TMSS0002N-18:30:00 	(d) DataCluster Filter=
+TMSS0002N-18:30:00 	(m) Minutes Filter=0:8640000
+TMSS0002N-18:30:00 	(o) Official Repository Filter=*
+TMSS0002N-18:30:00 	(v) Print Virtual Locations rather than Physical Locations=false
+TMSS0002N-18:30:00 	(x) XML Options=
+TMSS0001N-18:30:00 Server Interpretted as: Server(localhost) Port(5000) User(batch) Password()
+TMSS0001N-18:30:00 Password value is empty so checking for environment variable (TMSSPWPATH)
+TMSS0001W-18:30:00 No password file passed, defaulting to: C:/tmss/pw/batch
+TMSS0001N-18:30:00 Getting password from Password File: C:/tmss/pw/batch
+TMSS0001N-18:30:00 Password obtained OK
+TMSS0001N-18:30:00 Volume Filter Interpreted as: Customer(*) Media(*) Volume(*)
+TMSS0000N-18:30:00 Connection to server (127.0.0.1) successful
+TMSS0000N-18:30:00 Logging on to TapeTrack Server
+TMSS0000N-18:30:00 Registering Client at MACID(00:0c:29:23:bd:11:00:00) Result(Request OK)
+TMSS0000N-18:30:00 Last Logon was at Sunday, October 21, 2012 - 18:26:18 from 127.0.0.1 (dc1.ig2ds.local)
+TMSS0000N-18:30:00 Welcome to Server: Production Server
+TMSS0000N-18:30:00 Minute Range: 0 - 8640000
+TMSS0000N-18:30:00 Listing Customers
+TMSS0000N-18:30:00 Customer List successful: Customers(333) Excluded(0)
+TMSS0000N-18:30:00 Processing Customer: 0000-IG2
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(9) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: 4M-4MM Data Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(1) Excluded(1)
+TMSS0000I-18:30:00 -----------------------------------------------------------------------------------------------------------
+TMSS0000I-18:30:00 No.  Cus. Med. VolumeID   | To Location           | From Location         | Minutes  | Container          |
+TMSS0000I-18:30:00 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:00    1 0000 4M   TEST01     | Bravo58    16         | No-Alloc   0          |     3869 |                      |
+TMSS0000I-18:30:00 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:00 Processing Media: AI-AIT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(6) Excluded(9)
+TMSS0000I-18:30:00 -----------------------------------------------------------------------------------------------------------
+TMSS0000I-18:30:00 No.  Cus. Med. VolumeID   | To Location           | From Location         | Minutes  | Container          |
+TMSS0000I-18:30:00 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:00    1 0000 AI   AUGUST     | No-Alloc   0          | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00    2 0000 AI   DECEMBER   | No-Alloc   0          | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00    3 0000 AI   FEBRUARY   | No-Alloc   0          | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00    4 0000 AI   FRIDAY     | No-Alloc   0          | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00    5 0000 AI   JANUARY    | No-Alloc   0          | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00    6 0000 AI   APRIL      | No-Alloc   0          | No-Alloc   0          |     3869 |                      |
+TMSS0000I-18:30:00 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:00 Processing Media: BX-Large Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(7) Excluded(39)
+TMSS0000I-18:30:00 -----------------------------------------------------------------------------------------------------------
+TMSS0000I-18:30:00 No.  Cus. Med. VolumeID   | To Location           | From Location         | Minutes  | Container          |
+TMSS0000I-18:30:00 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:00    1 0000 DL   000004L1   | Alpha25    432        | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00    2 0000 DL   000123     | DEMO       5000       | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00    3 0000 DL   000590     | DEMO       5001       | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00    4 0000 DL   POWELL1    | DEMO       5002       | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00    5 0000 DL   JAN-TAPE1  | DEMO       5003       | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00    6 0000 DL   WEEK1TAPE1 | DEMO       5004       | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00    7 0000 DL   WEEK2TAPE1 | DEMO       5005       | No-Alloc   0          |     3869 |                      |
+TMSS0000I-18:30:00 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:00 Processing Media: HD-Hard Drive
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Media: LB-Large Box
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(3)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(32)
+TMSS0000N-18:30:00 Processing Media: ST-Small Transport Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: TS-TEST
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(102)
+TMSS0000N-18:30:00 Processing Customer: 0327-WebEx (SJ Unix)
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: AI-AIT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1639)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(37)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(457)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2381)
+TMSS0000N-18:30:00 Processing Customer: 0329-Kirix Corporation
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(10)
+TMSS0000N-18:30:00 Processing Customer: 0330-Hyperfeed/Interact.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0331-American EPAY
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0332-DataNet
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0333-iMonitor/Sec. Intl.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0334-Commerce/Getronics
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(6)
+TMSS0000N-18:30:00 Processing Media: CD-Compact Disc
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(15)
+TMSS0000N-18:30:00 Processing Customer: 0335-Opus North Corp.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: 4M-4MM Data Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(20)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(141)
+TMSS0000N-18:30:00 Processing Customer: 0336-C.W. Beilfuss
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(4)
+TMSS0000N-18:30:00 Processing Customer: 0337-CASE
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: AI-AIT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(20)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(44)
+TMSS0000N-18:30:00 Processing Customer: 0338-Datalogics, Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(297)
+TMSS0000N-18:30:00 Processing Customer: 0339-Ansira
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(285)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(402)
+TMSS0000N-18:30:00 Processing Customer: 0340-O'Connor & Company 
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DV-DVD
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(14)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(63)
+TMSS0000N-18:30:00 Processing Customer: 0341-Hospira, Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: 35-3590 Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(49)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(125)
+TMSS0000N-18:30:00 Processing Media: FB-Microfiche Box
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(122)
+TMSS0000N-18:30:00 Processing Customer: 0342-Language Line 
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: SB-Small Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Customer: 0343-State Financial Bank
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: MB-Medium Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Customer: 0344-Roberts & Schaefer
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: AI-AIT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(17)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(319)
+TMSS0000N-18:30:00 Processing Customer: 0345-NTN USA Corporation
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: 35-3590 Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(417)
+TMSS0000N-18:30:00 Processing Media: 70-3570 - Magstar Tapes
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(184)
+TMSS0000N-18:30:00 Processing Media: LB-Large Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(557)
+TMSS0000N-18:30:00 Processing Customer: 0346-Hyperfeed/GlobalTec
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0347-HealthMEDX, Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(4)
+TMSS0000N-18:30:00 Processing Customer: 0348-Thomson Reuters
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: D3-DDS-3 Data Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(41)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(472)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(73)
+TMSS0000N-18:30:00 Processing Customer: 0349-Cognitive Concepts
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: AL-Auto Loader
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(14)
+TMSS0000N-18:30:00 Processing Media: D3-DDS-3 Data Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(18)
+TMSS0000N-18:30:00 Processing Media: LB-Large Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(6)
+TMSS0000N-18:30:00 Processing Media: SB-Medium Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0350-Sunstar Butler
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: 35-3590 Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(182)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: LB-Large Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(588)
+TMSS0000N-18:30:00 Processing Customer: 0351-H.D. Hudson 
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: SB-Small Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Customer: 0352-Elgin Sweeper Comp.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(6) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: 8M-8MM Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(34)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(9)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1026)
+TMSS0000N-18:30:00 Processing Media: SB-Small Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: VM-Voice Mail Backup
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(9)
+TMSS0000N-18:30:00 Processing Customer: 0353-ICJIA
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LB-Large Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(5)
+TMSS0000N-18:30:00 Processing Media: MB-Medium Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: XC-Extra Large Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0354-AASCU
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: AL-Auto Loader
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(8)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(33)
+TMSS0000N-18:30:00 Processing Customer: 0355-TCA
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: 4M-4MM Data Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(20)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(8)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(308)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(190)
+TMSS0000N-18:30:00 Processing Customer: 0356-Mepco
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(6) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(38)
+TMSS0000N-18:30:00 Processing Media: LA-Laptops
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(14)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(100)
+TMSS0000N-18:30:00 Processing Media: SR-Server
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(4)
+TMSS0000N-18:30:00 Processing Media: TD-Thumb Drive
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(3)
+TMSS0000N-18:30:00 Processing Customer: 0357-Creative Automation
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CT-Mainframe Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(48530)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(284)
+TMSS0000N-18:30:00 Processing Customer: 0358-HyperFeed/Nasdaq
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0359-Commerz Futures
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: 8M-8MM Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(486)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(23)
+TMSS0000N-18:30:00 Processing Media: FB-Microfiche Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(6)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(12)
+TMSS0000N-18:30:00 Processing Customer: 0360-The Field Museum
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(117)
+TMSS0000N-18:30:00 Processing Customer: 0361-Kaplan College
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(49)
+TMSS0000N-18:30:00 Processing Customer: 0362-Motorola, Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-Compact Disc
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(7)
+TMSS0000N-18:30:00 Processing Media: LP-Laptop
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: SP-SNAP Server
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0363-DeStefano + Partners
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(114)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(488)
+TMSS0000N-18:30:00 Processing Media: MB-Medium Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0364-Harper Van Scoik
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: D4-DDS4 Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(3)
+TMSS0000N-18:30:00 Processing Customer: 0365-Firestar
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: AI-AIT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(830)
+TMSS0000N-18:30:00 Processing Media: LB-Large Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(3)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(205)
+TMSS0000N-18:30:00 Processing Customer: 0367-Follett Educational
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(39)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(184)
+TMSS0000N-18:30:00 Processing Customer: 0368-Berlin Industries
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: 4M-4MM Data Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(21)
+TMSS0000N-18:30:00 Processing Media: AI-AIT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(16)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(68)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(148)
+TMSS0000N-18:30:00 Processing Customer: 0369-Man Financial Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: 35-3590 Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(189)
+TMSS0000N-18:30:00 Processing Media: 70-3570 - Magstar Tapes
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(96)
+TMSS0000N-18:30:00 Processing Media: DV-DVD
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(300)
+TMSS0000N-18:30:00 Processing Customer: 0370-Car Leasing, Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: MB-Medium Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(56)
+TMSS0000N-18:30:00 Processing Customer: 0371-Alaron Trading
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(72)
+TMSS0000N-18:30:00 Processing Customer: 0372-Amtrak
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(0) Excluded(0)
+TMSS0000N-18:30:00 Processing Customer: 0373-Blue Titan
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0374-Canyon Partners/DPSI
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: 8M-8MM Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(43)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(109)
+TMSS0000N-18:30:00 Processing Customer: 0375-Transora
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(0) Excluded(0)
+TMSS0000N-18:30:00 Processing Customer: 0376-INT/Epoch
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(4)
+TMSS0000N-18:30:00 Processing Customer: 0377-Pendum Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DD-DDS Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(90)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(186)
+TMSS0000N-18:30:00 Processing Media: VX-VXA Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(20)
+TMSS0000N-18:30:00 Processing Customer: 0378-McCain Foods
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(6) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(10)
+TMSS0000N-18:30:00 Processing Media: L4-LTO 4
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(20)
+TMSS0000N-18:30:00 Processing Media: LO-LTO 4
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(55)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(229)
+TMSS0000N-18:30:00 Processing Media: SL-SLR Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(6)
+TMSS0000N-18:30:00 Processing Media: SR-SLR Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(0)
+TMSS0000N-18:30:00 Processing Customer: 0379-East Circle Solution
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Customer: 0380-JMB Insurance
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: 8M-8MM Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(8)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(184)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(194)
+TMSS0000N-18:30:00 Processing Customer: 0381-Arryx, Inc. 
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(64)
+TMSS0000N-18:30:00 Processing Customer: 0382-Easytec Partners
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0384-MAK-System
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0385-Trifus
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(0) Excluded(0)
+TMSS0000N-18:30:00 Processing Customer: 0386-Profile Products LLC
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: 8M-8MM Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(15)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(28)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(28)
+TMSS0000N-18:30:00 Processing Media: VM-Voice Mail Backup
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(28)
+TMSS0000N-18:30:00 Processing Customer: 0387-Littelfuse
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(0) Excluded(0)
+TMSS0000N-18:30:00 Processing Customer: 0388-Hometown America
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DV-DVD
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(6)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(363)
+TMSS0000N-18:30:00 Processing Media: MB-Medium Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0389-Knowles Electronics
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1268)
+TMSS0000N-18:30:00 Processing Media: DT-Sony Digital Tape
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(6)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(14) Excluded(359)
+TMSS0000I-18:30:00 -----------------------------------------------------------------------------------------------------------
+TMSS0000I-18:30:00 No.  Cus. Med. VolumeID   | To Location           | From Location         | Minutes  | Container          |
+TMSS0000I-18:30:00 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:00    1 0389 LT   MS0171L4   | Alpha43    393        | No-Alloc   0          |     4578 |                      |
+TMSS0000N-18:30:00    2 0389 LT   MS0163L4   | Alpha43    394        | No-Alloc   0          |     4578 |                      |
+TMSS0000N-18:30:00    3 0389 LT   MS0259L4   | Alpha43    395        | No-Alloc   0          |     4578 |                      |
+TMSS0000N-18:30:00    4 0389 LT   MS0218L4   | Alpha43    396        | No-Alloc   0          |     4578 |                      |
+TMSS0000N-18:30:00    5 0389 LT   MS0212L4   | Alpha43    397        | No-Alloc   0          |     4578 |                      |
+TMSS0000N-18:30:00    6 0389 LT   MS0219L4   | Alpha43    398        | No-Alloc   0          |     4578 |                      |
+TMSS0000N-18:30:00    7 0389 LT   MS0125L4   | Alpha43    399        | No-Alloc   0          |     4578 |                      |
+TMSS0000N-18:30:00    8 0389 LT   MS0109L4   | Alpha43    400        | No-Alloc   0          |     4578 |                      |
+TMSS0000N-18:30:00    9 0389 LT   EX0037L4   | Alpha43    401        | No-Alloc   0          |     4578 |                      |
+TMSS0000N-18:30:00   10 0389 LT   EX0032L4   | Alpha43    402        | No-Alloc   0          |     4578 |                      |
+TMSS0000N-18:30:00   11 0389 LT   MS0177L4   | Alpha43    403        | No-Alloc   0          |     4578 |                      |
+TMSS0000N-18:30:00   12 0389 LT   MS0093L4   | Alpha43    404        | No-Alloc   0          |     4578 |                      |
+TMSS0000N-18:30:00   13 0389 LT   MS0261L4   | Alpha43    405        | No-Alloc   0          |     4578 |                      |
+TMSS0000N-18:30:00   14 0389 LT   MS0158L4   | Alpha62    59         | No-Alloc   0          |     4578 |                      |
+TMSS0000I-18:30:00 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:00 Processing Customer: 0391-Toji Trading Group 
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(363)
+TMSS0000N-18:30:00 Processing Customer: 0392-Signiant Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0393-Abbott/BioGenex
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Media: LC-Laptop Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0394-Compl. Sci./Enhanced
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Customer: 0395-John Buck Company
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(5) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(56)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(381)
+TMSS0000N-18:30:00 Processing Media: FD-Floppy Disk
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(48)
+TMSS0000N-18:30:00 Processing Media: FS-FalconStar
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Media: SB-Small Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0396-Naperville S.D. 203
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: MB-Medium Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Customer: 0397-Adams Street Prtnrs.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-Compact Disc
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(493)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(301)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(701)
+TMSS0000N-18:30:00 Processing Customer: 0398-ABN AMRO
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(6) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Large Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(698)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(297)
+TMSS0000N-18:30:00 Processing Media: HD-Hard Drive
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2711)
+TMSS0000N-18:30:00 Processing Media: USB-USB Hard Drive
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(6)
+TMSS0000N-18:30:00 Processing Customer: 0399-Dresser Industries
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DV-Source Code DVD
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(24)
+TMSS0000N-18:30:00 Processing Media: HD-Hard Drive
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(4)
+TMSS0000N-18:30:00 Processing Media: PC-Escrow Computer
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0401-AMI Bearings
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(113)
+TMSS0000N-18:30:00 Processing Customer: 0402-Empire Today, LLC
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DV-DVD
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1621)
+TMSS0000N-18:30:00 Processing Media: MB-Medium Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Customer: 0403-PaperSoft
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Customer: 0404-RedGap/Fionda.com
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: CD-Compact Disc
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0405-Jones Day
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DD-DDS Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(25)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(75)
+TMSS0000N-18:30:00 Processing Media: LB-Large Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(5)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(80)
+TMSS0000N-18:30:00 Processing Customer: 0406-AISC
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(68)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(403)
+TMSS0000N-18:30:00 Processing Customer: 0407-Orlando Software
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0408-Qbos
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0409-Mesirow Financial
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(0) Excluded(0)
+TMSS0000N-18:30:00 Processing Customer: 0410-Museum of Science
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(51)
+TMSS0000N-18:30:00 Processing Customer: 0411-Elect. Sol./Airvana 
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(0)
+TMSS0000N-18:30:00 Processing Customer: 0412-IIT Research Inst.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2347)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(113)
+TMSS0000N-18:30:00 Processing Customer: 0413-Chicago Trading Co
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(3473)
+TMSS0000N-18:30:00 Processing Media: TR-Travan
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(3)
+TMSS0000N-18:30:00 Processing Customer: 0414-InRule Technology
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: CD-Compact Disc
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(16)
+TMSS0000N-18:30:00 Processing Customer: 0415-Hyperfeed/MarketXS
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0416-Visionary Med/MDVIP
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0418-Bradmark Tech.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0419-Planned Parenthood
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(41)
+TMSS0000N-18:30:00 Processing Media: MB-Medium Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0420-LANSA, Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(5)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(79)
+TMSS0000N-18:30:00 Processing Media: VM-Voice Mail Backup
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(8)
+TMSS0000N-18:30:00 Processing Media: VX-VXA Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(16)
+TMSS0000N-18:30:00 Processing Customer: 0421-BTB Software
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0422-Wight & Company
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: 4M-4MM Data Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(51)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(15)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(579)
+TMSS0000N-18:30:00 Processing Customer: 0423-Potash Corporation
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(346)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(484)
+TMSS0000N-18:30:00 Processing Customer: 0424-CDMdata, Inc
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0425-Axiom Services, Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0426-Optiver US LLC
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: FL-FLOPPY DISK
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: HD-Hard Drive
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(979)
+TMSS0000N-18:30:00 Processing Customer: 0427-Village of Oak Lawn
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: AI-AIT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(102)
+TMSS0000N-18:30:00 Processing Media: D3-DDS-3 Data Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(39)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(79)
+TMSS0000N-18:30:00 Processing Media: VX-VXA Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(25)
+TMSS0000N-18:30:00 Processing Customer: 0428-KaVo Technologies
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(4)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(523)
+TMSS0000N-18:30:00 Processing Customer: 0429-WMH Tool Group
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(264)
+TMSS0000N-18:30:00 Processing Customer: 0430-Holland Capital Mgt
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: AI-AIT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(36)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(106)
+TMSS0000N-18:30:00 Processing Customer: 0431-GeM Solutions, Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: DV-DVD
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0432-Archstone Consulting
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(17)
+TMSS0000N-18:30:00 Processing Media: SB-Small Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(4)
+TMSS0000N-18:30:00 Processing Customer: 0433-Foundation Software 
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0434-Frontenac Company
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(117)
+TMSS0000N-18:30:00 Processing Media: HD-Hard Drive
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(6)
+TMSS0000N-18:30:00 Processing Customer: 0435-Holden International
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-Compact Disc
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0436-Henry Pratt Company
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: D3-DDS-3 Data Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(401)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(205)
+TMSS0000N-18:30:00 Processing Customer: 0437-In-Synch Systems
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Customer: 0438-Interface/Becton 
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0439-Nexterna/ASCO
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-Compact Disc
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0440-Equis Corporation
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(12)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1179)
+TMSS0000N-18:30:00 Processing Customer: 0441-GraniteEdge Networks
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0442-Davis & Hosfield 
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(6)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(20)
+TMSS0000N-18:30:00 Processing Customer: 0443-S3 Tech Solutions
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0444-BlueSky System LLC
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0445-Next Wave Logistics
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(94)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(21) Excluded(710)
+TMSS0000I-18:30:00 -----------------------------------------------------------------------------------------------------------
+TMSS0000I-18:30:00 No.  Cus. Med. VolumeID   | To Location           | From Location         | Minutes  | Container          |
+TMSS0000I-18:30:00 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:00    1 0445 LT   BWT717L5   | Alpha2     383        | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00    2 0445 LT   BWT718L5   | Alpha2     385        | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00    3 0445 LT   BWT705L5   | Alpha2     386        | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00    4 0445 LT   BWT719L5   | Alpha2     387        | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00    5 0445 LT   BWT726L5   | Alpha2     388        | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00    6 0445 LT   BWT733L5   | Alpha2     390        | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00    7 0445 LT   BWT735L5   | Alpha2     392        | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00    8 0445 LT   CQF016L3   | Alpha2     393        | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00    9 0445 LT   CQF018L3   | Alpha2     394        | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00   10 0445 LT   BWT700L5   | Alpha2     396        | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00   11 0445 LT   BWT742L5   | Alpha2     397        | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00   12 0445 LT   BWT743L5   | Alpha2     398        | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00   13 0445 LT   BWT744L5   | Alpha2     403        | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00   14 0445 LT   BWT745L5   | Alpha2     404        | No-Alloc   0          |     3869 |                      |
+TMSS0000N-18:30:00   15 0445 LT   BWT708L5   | No-Alloc   0          | Alpha2     55         |     3869 |                      |
+TMSS0000N-18:30:00   16 0445 LT   BWT712L5   | No-Alloc   0          | Alpha2     119        |     3869 |                      |
+TMSS0000N-18:30:00   17 0445 LT   BWT692L5   | No-Alloc   0          | Alpha2     127        |     3869 |                      |
+TMSS0000N-18:30:00   18 0445 LT   BWT698L5   | No-Alloc   0          | Alpha2     150        |     3869 |                      |
+TMSS0000N-18:30:00   19 0445 LT   CQF028L3   | No-Alloc   0          | Alpha2     167        |     3869 |                      |
+TMSS0000N-18:30:00   20 0445 LT   AZS972L3   | No-Alloc   0          | Alpha2     189        |     3869 |                      |
+TMSS0000N-18:30:00   21 0445 LT   LLK512L4   | No-Alloc   0          | Alpha2     200        |     3869 |                      |
+TMSS0000I-18:30:00 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:00 Processing Customer: 0446-Miller Capital
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LB-Large Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(17)
+TMSS0000N-18:30:00 Processing Customer: 0447-First Insurance 
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(115)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(34)
+TMSS0000N-18:30:00 Processing Customer: 0448-First Industrial LP
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(979)
+TMSS0000N-18:30:00 Processing Customer: 0449-Monitor Business 
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0450-Arrow Financial Svs
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2411)
+TMSS0000N-18:30:00 Processing Customer: 0451-Starthis, Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0452-Cabrera Capital
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(235)
+TMSS0000N-18:30:00 Processing Media: D3-DDS-3 Data Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(15)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(26)
+TMSS0000N-18:30:00 Processing Media: WD-Worm Disk
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(6)
+TMSS0000N-18:30:00 Processing Customer: 0453-Integra5 Comm
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(3)
+TMSS0000N-18:30:00 Processing Customer: 0454-Exec Bus. Services
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0455-Richco, Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(26)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(139)
+TMSS0000N-18:30:00 Processing Media: ML-MLR3 Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(72)
+TMSS0000N-18:30:00 Processing Customer: 0456-NEC Solutions
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: AI-AIT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(62)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(90)
+TMSS0000N-18:30:00 Processing Customer: 0457-Thayta/Reform S.Ware
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0458-Tenebral/L. Bulletin
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0459-Meal Portal, Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: CD-Compact Disc
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0461-Ceecom/MHEC
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-Compact Disc
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0463-Incisent/First Look
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-Compact Disc
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(18)
+TMSS0000N-18:30:00 Processing Media: HD-Hard Drive
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(53)
+TMSS0000N-18:30:00 Processing Customer: 0464-Quality Smith
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: AG-Agreement
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Customer: 0465-Bates & Carey LLP
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(276)
+TMSS0000N-18:30:00 Processing Customer: 0466-K2share/SCLED
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-Compact Disc
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(8)
+TMSS0000N-18:30:00 Processing Customer: 0468-Dyson
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(261)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(3610)
+TMSS0000N-18:30:00 Processing Customer: 0469-Crate & Barrel
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: D3-DDS-3 Data Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(12)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(146)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1881)
+TMSS0000N-18:30:00 Processing Media: SB-Small Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0470-J & P Holdings
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: 8M-8MM Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(22)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(140)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(226)
+TMSS0000N-18:30:00 Processing Customer: 0471-Salisbury Electrical
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-VXA Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(5)
+TMSS0000N-18:30:00 Processing Media: SL-SLR Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(5)
+TMSS0000N-18:30:00 Processing Customer: 0472-Chicago Faucets
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(6) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: 70-3570 - Magstar Tapes
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Media: AI-AIT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(13)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: HD-Hard Drive
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(125)
+TMSS0000N-18:30:00 Processing Media: ML-MLR3 Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(3)
+TMSS0000N-18:30:00 Processing Customer: 0474-Avid Xchange
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DV-DVD
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0475-Meridios LTD
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DV-DVD
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0476-Direct Supply
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-Compact Disc
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(10)
+TMSS0000N-18:30:00 Processing Customer: 0477-NanoInk
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(739)
+TMSS0000N-18:30:00 Processing Customer: 0478-Kendall College
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(36)
+TMSS0000N-18:30:00 Processing Customer: 0479-Life Fitness
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: FD-Floppy Disk
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(5)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(632)
+TMSS0000N-18:30:00 Processing Customer: 0480-Blommer Chocolate
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(48)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(113)
+TMSS0000N-18:30:00 Processing Media: VX-VXA Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(198)
+TMSS0000N-18:30:00 Processing Customer: 0481-Fatpot/NorthrupGIT
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-Compact Disc
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0482-CMI Woodridge
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(1) Excluded(262)
+TMSS0000I-18:30:00 -----------------------------------------------------------------------------------------------------------
+TMSS0000I-18:30:00 No.  Cus. Med. VolumeID   | To Location           | From Location         | Minutes  | Container          |
+TMSS0000I-18:30:00 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:00    1 0482 LT   TAPE0254   | Alpha35    151        | No-Alloc   0          |     3320 |                      |
+TMSS0000I-18:30:00 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:00 Processing Customer: 0483-Zonta International
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(37)
+TMSS0000N-18:30:00 Processing Customer: 0484-Cosmetique, Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(72)
+TMSS0000N-18:30:00 Processing Customer: 0485-RPH on the Go USA
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: AI-AIT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(18)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(37)
+TMSS0000N-18:30:00 Processing Customer: 0486-Stockamp & Assoc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0488-National Surg. Hosp.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(585)
+TMSS0000N-18:30:00 Processing Customer: 0489-Assoc. Mat. Hand.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(111)
+TMSS0000N-18:30:00 Processing Media: DV-DVD Ram
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(4)
+TMSS0000N-18:30:00 Processing Media: LB-Large Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: SL-SLR Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(14)
+TMSS0000N-18:30:00 Processing Customer: 0490-Visual Legacy Group
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BX-Media Container
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0491-Draupnir LLC
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(33)
+TMSS0000N-18:30:00 Processing Media: LB-Large Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0492-Kroeschell, Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(55)
+TMSS0000N-18:30:00 Processing Customer: 0493-Vlg. Evergreen Park
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(25)
+TMSS0000N-18:30:00 Processing Customer: 0494-Milliman
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(209)
+TMSS0000N-18:30:00 Processing Customer: 0495-Americash Loans LLC
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: L4-LTO 4
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(60)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(167)
+TMSS0000N-18:30:00 Processing Customer: 0496-Duraco, Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(5) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-Compact Disc
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Media: DD-DDS Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(100)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(20)
+TMSS0000N-18:30:00 Processing Media: HD-Hard Drive
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(5)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(59)
+TMSS0000N-18:30:00 Processing Customer: 0497-Dober Chemical Group
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LB-Large Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1383)
+TMSS0000N-18:30:00 Processing Customer: 0498-Learning Curve Brand
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DR-DR Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(594)
+TMSS0000N-18:30:00 Processing Customer: 0499-World's Finest Choc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(112)
+TMSS0000N-18:30:00 Processing Customer: 0500-Nu-Communitek, LLC.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0501-Guggenheim (Lisle)
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(389)
+TMSS0000N-18:30:00 Processing Customer: 0502-THK America Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(55)
+TMSS0000N-18:30:00 Processing Customer: 0503-Fidelity Life Assoc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DV-DVD
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(65)
+TMSS0000N-18:30:00 Processing Customer: 0505-Williams-Labadie LLC
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-Compact Disc
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(59)
+TMSS0000N-18:30:00 Processing Media: DV-Spindle
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(15)
+TMSS0000N-18:30:00 Processing Media: LB-Large Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(312)
+TMSS0000N-18:30:00 Processing Customer: 0506-Hurley McKenna Mertz
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DR-DR Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: HD-Hard Drive
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(23)
+TMSS0000N-18:30:00 Processing Customer: 0507-Bank of America, N.A
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(7)
+TMSS0000N-18:30:00 Processing Customer: 0508-Echo Global Logistic
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(867)
+TMSS0000N-18:30:00 Processing Customer: 0509-Warady & Davis LLP
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DR-DR Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(61)
+TMSS0000N-18:30:00 Processing Customer: 0510-Dover Corporation
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(36)
+TMSS0000N-18:30:00 Processing Customer: 0511-OZ Development, Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0512-Cims Inventory Manag
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0513-AGIS, LLC
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DV-Source Code DVD
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0514-Windy City Wire
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: HD-Hard Drive
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(10)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(0)
+TMSS0000N-18:30:00 Processing Customer: 0515-The Claretians
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(5)
+TMSS0000N-18:30:00 Processing Media: DL-LTO Data Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(126)
+TMSS0000N-18:30:00 Processing Media: DR-DR Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: HD-Hard Drive
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0516-Wheaton Park Dist.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(19)
+TMSS0000N-18:30:00 Processing Customer: 0517-Common A Users Group
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CF-Compact Flash Card
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(40)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(12)
+TMSS0000N-18:30:00 Processing Media: SL-SLR Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(122)
+TMSS0000N-18:30:00 Processing Customer: 0518-AdOn/RBS
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Customer: 0519-Radius Solutions
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0520-First Transit, Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: BD-Blu-Ray Disc
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(46)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(14)
+TMSS0000N-18:30:00 Processing Customer: 0521-Synch-Solutions Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LB-Large Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(62)
+TMSS0000N-18:30:00 Processing Customer: 0522-Chicago Laborers' DC
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(10)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(20)
+TMSS0000N-18:30:00 Processing Customer: 0523-JCC Skokie
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(58)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(114)
+TMSS0000N-18:30:00 Processing Customer: 0524-HUB International
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(70)
+TMSS0000N-18:30:00 Processing Customer: 0525-Broker's Risk Plcmnt
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: 4M-4MM Data Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(28)
+TMSS0000N-18:30:00 Processing Media: HD-Hard Drive
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(5)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(104)
+TMSS0000N-18:30:00 Processing Customer: 0526-ADM Investor Service
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(5) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: 70-3570 - Magstar Tapes
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(40)
+TMSS0000N-18:30:00 Processing Media: 8M-8MM Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(107)
+TMSS0000N-18:30:00 Processing Media: DV-DVD
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(49)
+TMSS0000N-18:30:00 Processing Media: L3-LTO 3
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(658)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(236)
+TMSS0000N-18:30:00 Processing Customer: 0527-Accretive Health Inc
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DV-DVD
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(159)
+TMSS0000N-18:30:00 Processing Customer: 0528-Compliance Science 
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Customer: 0529-Neuro & Ortho Hosp
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: AI-AIT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(349)
+TMSS0000N-18:30:00 Processing Customer: 0530-Office of Spec. Dep.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(5) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: 70-3570 - Magstar Tapes
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(508)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(267)
+TMSS0000N-18:30:00 Processing Media: DR-DR Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Media: L3-LTO 3
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(106)
+TMSS0000N-18:30:00 Processing Media: L5-LTO 5
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(54)
+TMSS0000N-18:30:00 Processing Customer: 0531-Dover Supply Chain
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(32)
+TMSS0000N-18:30:00 Processing Customer: 0532-Mecalux USA
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: 8M-8MM Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(33)
+TMSS0000N-18:30:00 Processing Media: CD-Compact Disc
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(167)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(27)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(18)
+TMSS0000N-18:30:00 Processing Customer: 0533-TracAutomation
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(3)
+TMSS0000N-18:30:00 Processing Customer: 0534-eVision Services
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DV-DVD
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Customer: 0535-Breakwater Trading
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(440)
+TMSS0000N-18:30:00 Processing Customer: 0536-Silveredge Consult.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: MB-Medium Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(3)
+TMSS0000N-18:30:00 Processing Customer: 0537-Avant Assessment
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0538-Miramed Revenue 
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DD-DDS Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(20)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(15)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(53)
+TMSS0000N-18:30:00 Processing Customer: 0539-Clune Construction
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(190)
+TMSS0000N-18:30:00 Processing Customer: 0540-TTC Marketing 
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: AI-AIT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(26)
+TMSS0000N-18:30:00 Processing Media: DD-DDS Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(44)
+TMSS0000N-18:30:00 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(132)
+TMSS0000N-18:30:00 Processing Media: SL-SLR Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(28)
+TMSS0000N-18:30:00 Processing Customer: 0541-Healthcare Assoc. CU
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DR-DR Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: HD-Hard Drive
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(16)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(68)
+TMSS0000N-18:30:00 Processing Media: WD-Worm Disk
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(27)
+TMSS0000N-18:30:00 Processing Customer: 0542-Lisle Park District
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(9)
+TMSS0000N-18:30:00 Processing Media: VX-VXA Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(33)
+TMSS0000N-18:30:00 Processing Customer: 0543-HUE AS
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DV-DVD
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Customer: 0544-Simtrol, Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0545-GPS Industries Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DV-DVD
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(3)
+TMSS0000N-18:30:00 Processing Customer: 0546-Loyola Press
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DR-DR Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(806)
+TMSS0000N-18:30:00 Processing Customer: 0547-CPO Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Customer: 0549-Carnow Conibear Assc
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DR-DR Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(92)
+TMSS0000N-18:30:00 Processing Customer: 0550-IL State Medical Ins
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: AI-AIT Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(33)
+TMSS0000N-18:30:00 Processing Media: DR-DR Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: DV-Worm Disk
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(108)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(134)
+TMSS0000N-18:30:00 Processing Customer: 0551-City of Park Ridge
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: 4M-4MM Data Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(115)
+TMSS0000N-18:30:00 Processing Media: DR-DR Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(149)
+TMSS0000N-18:30:00 Processing Customer: 0552-HealthMEDX, Inc.
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:00 Processing Customer: 0553-MWA Intelligence
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DV-DVD
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0554-Synergy
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DR-DR Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(91)
+TMSS0000N-18:30:00 Processing Customer: 0555-RotaDyne
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LB-Large Media Case
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(3)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(219)
+TMSS0000N-18:30:00 Processing Customer: 0556-White Way Sign 
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(137)
+TMSS0000N-18:30:00 Processing Customer: 0557-Protiviti
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: CD-CD ROM
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:00 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:00 Processing Customer: 0558-1st Capital
+TMSS0000N-18:30:00 Listing Media
+TMSS0000N-18:30:00 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:00 Processing Media: DV-DVD
+TMSS0000N-18:30:00 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:01 Processing Customer: 0559-Vaultlogix, LLC
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DV-DVD
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:01 Processing Customer: 0560-Epstein
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(172)
+TMSS0000N-18:30:01 Processing Customer: 0561-IPiFony Systems, Inc
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: CD-CD ROM
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:01 Processing Customer: 0562-R.T.A.
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(934)
+TMSS0000N-18:30:01 Processing Customer: 0564-Rauland-Borg Corp.
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DR-DR Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(290)
+TMSS0000N-18:30:01 Processing Customer: 0565-Mercury Marine
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: CT-Mainframe Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(266)
+TMSS0000N-18:30:01 Processing Customer: 0566-Gresham Partners LLC
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: 4M-4MM Data Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(45)
+TMSS0000N-18:30:01 Processing Media: DR-DR Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:01 Processing Media: DV-DVD
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(73)
+TMSS0000N-18:30:01 Processing Media: RD-RD 1000 Hard Disk
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(160)
+TMSS0000N-18:30:01 Processing Customer: 0567-Zeller Realty
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(10)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(10)
+TMSS0000N-18:30:01 Processing Customer: 0568-Central States Funds
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: CD-Compact Disc
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(12)
+TMSS0000N-18:30:01 Processing Media: CT-Mainframe Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(24824)
+TMSS0000N-18:30:01 Processing Media: DR-DR Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(472)
+TMSS0000N-18:30:01 Processing Customer: 0570-Flexco
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: AI-AIT Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(164)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(17)
+TMSS0000N-18:30:01 Processing Customer: 0571-Infogix, Inc.
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(5) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: 4M-4MM Data Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(34)
+TMSS0000N-18:30:01 Processing Media: DC-Data Cartridges
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:01 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(92)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(700)
+TMSS0000N-18:30:01 Processing Media: MG-Magazines
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:01 Processing Customer: 0572-RSA Medical
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DVD-DVD
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(261)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(270)
+TMSS0000N-18:30:01 Processing Customer: 0573-The Fry Foundation
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(10)
+TMSS0000N-18:30:01 Processing Customer: 0575-Dana Corporation
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LB-Large Media Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(3)
+TMSS0000N-18:30:01 Processing Media: MB-Medium Media Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(23)
+TMSS0000N-18:30:01 Processing Media: SB-Small Media Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(7)
+TMSS0000N-18:30:01 Processing Media: XL-X Large Media Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(12)
+TMSS0000N-18:30:01 Processing Customer: 0576-Graham Packaging
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(31)
+TMSS0000N-18:30:01 Processing Customer: 0578-BCS Financial Corp.
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LB-Large Media Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(6)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(365)
+TMSS0000N-18:30:01 Processing Media: MB-Medium Media Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:01 Processing Media: SB-Small Media Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(4)
+TMSS0000N-18:30:01 Processing Customer: 0579-DMD Marketing Corp.
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: 4M-4MM Data Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(39)
+TMSS0000N-18:30:01 Processing Customer: 0581-Dover Corp Dnrs Grv
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(245)
+TMSS0000N-18:30:01 Processing Customer: 0582-Triumph Packaging
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(4) Excluded(23)
+TMSS0000I-18:30:01 -----------------------------------------------------------------------------------------------------------
+TMSS0000I-18:30:01 No.  Cus. Med. VolumeID   | To Location           | From Location         | Minutes  | Container          |
+TMSS0000I-18:30:01 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:01    1 0582 LT   BHQ804L5   | Bravo10    86         | No-Alloc   0          |     3021 |                      |
+TMSS0000N-18:30:01    2 0582 LT   BHQ805L5   | Bravo10    87         | No-Alloc   0          |     3021 |                      |
+TMSS0000N-18:30:01    3 0582 LT   BHQ808L5   | Bravo10    88         | No-Alloc   0          |     3021 |                      |
+TMSS0000N-18:30:01    4 0582 LT   BHQ809L5   | Bravo10    89         | No-Alloc   0          |     3021 |                      |
+TMSS0000I-18:30:01 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:01 Processing Customer: 0583-Peregrine Semi Corp.
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(16)
+TMSS0000N-18:30:01 Processing Customer: 0585-VASCO Data Security
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(20)
+TMSS0000N-18:30:01 Processing Customer: 0586-Geneca, LLC
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: MB-Medium Media Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(7)
+TMSS0000N-18:30:01 Processing Customer: 0587-Kabouter Management
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(24)
+TMSS0000N-18:30:01 Processing Customer: 0588-Eddie Bauer
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(9) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: CT-34xx/35xx Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(10588)
+TMSS0000N-18:30:01 Processing Media: DR-DR Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(5)
+TMSS0000N-18:30:01 Processing Media: LB-Large Storage Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(8)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(187)
+TMSS0000N-18:30:01 Processing Media: TMP-Temporary Containers
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(65)
+TMSS0000N-18:30:01 Processing Media: TR2-Transport Case 20
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(4)
+TMSS0000N-18:30:01 Processing Media: TR4-Transport Case 40
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(14)
+TMSS0000N-18:30:01 Processing Media: TRL-Transfer Lewis Bin
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(65)
+TMSS0000N-18:30:01 Processing Media: XL-X Large Media Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:01 Processing Customer: 0589-TransUnion
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: TRL-Transfer Lewis Bin
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(150)
+TMSS0000N-18:30:01 Processing Customer: 0590-Scot Forge
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DD-DDS Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(15)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(15)
+TMSS0000N-18:30:01 Processing Customer: 0591-Witt/Kieffer
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(225)
+TMSS0000N-18:30:01 Processing Media: DR-DR Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:01 Processing Customer: 0592-CrossComNational
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DR-DR Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:01 Processing Media: HD-Hard Drive
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(4)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(13) Excluded(211)
+TMSS0000I-18:30:01 -----------------------------------------------------------------------------------------------------------
+TMSS0000I-18:30:01 No.  Cus. Med. VolumeID   | To Location           | From Location         | Minutes  | Container          |
+TMSS0000I-18:30:01 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:01    1 0592 LT   PA8706L4   | Alpha52    237        | No-Alloc   0          |     4441 |                      |
+TMSS0000N-18:30:01    2 0592 LT   PA8719L4   | Alpha52    238        | No-Alloc   0          |     4441 |                      |
+TMSS0000N-18:30:01    3 0592 LT   PA8802L4   | Alpha52    239        | No-Alloc   0          |     4441 |                      |
+TMSS0000N-18:30:01    4 0592 LT   PA8820L4   | Alpha52    240        | No-Alloc   0          |     4441 |                      |
+TMSS0000N-18:30:01    5 0592 LT   PA8907L4   | Alpha52    241        | No-Alloc   0          |     4441 |                      |
+TMSS0000N-18:30:01    6 0592 LT   PA8908L4   | Alpha52    242        | No-Alloc   0          |     4441 |                      |
+TMSS0000N-18:30:01    7 0592 LT   PA1319L4   | Alpha53    200        | No-Alloc   0          |     4441 |                      |
+TMSS0000N-18:30:01    8 0592 LT   PA1635L4   | Alpha53    202        | No-Alloc   0          |     4441 |                      |
+TMSS0000N-18:30:01    9 0592 LT   PA1303L4   | Alpha53    204        | No-Alloc   0          |     4441 |                      |
+TMSS0000N-18:30:01   10 0592 LT   009060L4   | Alpha53    205        | No-Alloc   0          |     4441 |                      |
+TMSS0000N-18:30:01   11 0592 LT   PA1622L4   | Alpha53    253        | No-Alloc   0          |     4441 |                      |
+TMSS0000N-18:30:01   12 0592 LT   PA8386L4   | Alpha53    304        | No-Alloc   0          |     4441 |                      |
+TMSS0000N-18:30:01   13 0592 LT   PA8631L4   | Alpha53    306        | No-Alloc   0          |     4441 |                      |
+TMSS0000I-18:30:01 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:01 Processing Customer: 0593-Plymouth Tube
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(70)
+TMSS0000N-18:30:01 Processing Customer: 0594-ELCA
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(5) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(40)
+TMSS0000N-18:30:01 Processing Media: DR-DR Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(2652)
+TMSS0000N-18:30:01 Processing Media: SB-Small Media Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(4)
+TMSS0000N-18:30:01 Processing Media: USB-
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:01 Processing Customer: 0595-Citadel, LLC
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(2072)
+TMSS0000N-18:30:01 Processing Customer: 0596-Pregis
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(51)
+TMSS0000N-18:30:01 Processing Customer: 0597-Federal Signal
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(5489)
+TMSS0000N-18:30:01 Processing Customer: 0598-IMI Cornelius
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: BX-Large Container
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(13)
+TMSS0000N-18:30:01 Processing Customer: 0599-EDD Fund Services
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DVD-DVD
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(9)
+TMSS0000N-18:30:01 Processing Customer: 0601-Aptar
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(40)
+TMSS0000N-18:30:01 Processing Customer: 0602-GA Communication
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DR-DR Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(40)
+TMSS0000N-18:30:01 Processing Customer: 0603-FleetwoodGoldcoWyard
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(51)
+TMSS0000N-18:30:01 Processing Customer: 0604-Asset Recovery Soln
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(15)
+TMSS0000N-18:30:01 Processing Customer: 0605-Trelleborg Strmwd
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: D3-DDS-3 Data Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(11)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(97)
+TMSS0000N-18:30:01 Processing Customer: 0606-Trelleborg HanoverPk
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(18)
+TMSS0000N-18:30:01 Processing Customer: 0607-U.S. Cellular Corp.
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LB-Large Media Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(8)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(384)
+TMSS0000N-18:30:01 Processing Media: MB-Medium Media Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(4)
+TMSS0000N-18:30:01 Processing Customer: 0608-SunCoke Energy
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(52)
+TMSS0000N-18:30:01 Processing Customer: 0609-Strive Logistics
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DR-DR Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(53)
+TMSS0000N-18:30:01 Processing Customer: 0610-ED&F Man Capt Market
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(147)
+TMSS0000N-18:30:01 Processing Customer: 0612-Scholle Packaging
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(9) Excluded(86)
+TMSS0000I-18:30:01 -----------------------------------------------------------------------------------------------------------
+TMSS0000I-18:30:01 No.  Cus. Med. VolumeID   | To Location           | From Location         | Minutes  | Container          |
+TMSS0000I-18:30:01 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:01    1 0612 LT   000223L4   | No-Alloc   0          | Bravo35    167        |     3869 |                      |
+TMSS0000N-18:30:01    2 0612 LT   000397L4   | No-Alloc   0          | Bravo35    174        |     3869 |                      |
+TMSS0000N-18:30:01    3 0612 LT   000385L4   | No-Alloc   0          | Bravo35    175        |     3869 |                      |
+TMSS0000N-18:30:01    4 0612 LT   000386L4   | No-Alloc   0          | Bravo35    176        |     3869 |                      |
+TMSS0000N-18:30:01    5 0612 LT   000389L4   | No-Alloc   0          | Bravo35    177        |     3869 |                      |
+TMSS0000N-18:30:01    6 0612 LT   000027L4   | No-Alloc   0          | Bravo35    178        |     3869 |                      |
+TMSS0000N-18:30:01    7 0612 LT   000009L4   | No-Alloc   0          | Bravo35    180        |     3869 |                      |
+TMSS0000N-18:30:01    8 0612 LT   000052L4   | No-Alloc   0          | Bravo35    181        |     3869 |                      |
+TMSS0000N-18:30:01    9 0612 LT   000295L4   | No-Alloc   0          | Bravo35    182        |     3869 |                      |
+TMSS0000I-18:30:01 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:01 Processing Customer: 0613-AlphaMetrix, LLC
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(20)
+TMSS0000N-18:30:01 Processing Customer: 327-WebEx Communications
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(0) Excluded(0)
+TMSS0000N-18:30:01 Processing Customer: 327C-WebEx (Colorado)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(274)
+TMSS0000N-18:30:01 Processing Customer: 327P-WebEx (Phoenix)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: AI-AIT Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(4)
+TMSS0000N-18:30:01 Processing Media: DD-DDS Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(0)
+TMSS0000N-18:30:01 Processing Customer: 327R-WebEx (Rancho Cor.)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(0) Excluded(0)
+TMSS0000N-18:30:01 Processing Customer: 327S-WebEx (SJ Data Ctr)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: BX-Media Container
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(0)
+TMSS0000N-18:30:01 Processing Customer: 363L-DeStefano + Partners
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(118)
+TMSS0000N-18:30:01 Processing Media: TDT-DLT Blue Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:01 Processing Customer: 369F-MF Global (FM1)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(358)
+TMSS0000N-18:30:01 Processing Customer: 369M-Man (Memphis)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(3179)
+TMSS0000N-18:30:01 Processing Customer: 369S-MF Global-Server Acc
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(4) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: 70-3570 - Magstar Tapes
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(282)
+TMSS0000N-18:30:01 Processing Media: 8M-8mm Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(540)
+TMSS0000N-18:30:01 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(637)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(8260)
+TMSS0000N-18:30:01 Processing Customer: 372B-Amtrak (Beech Grove)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(43)
+TMSS0000N-18:30:01 Processing Customer: 372C-Amtrak (Chicago)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(95)
+TMSS0000N-18:30:01 Processing Customer: 375E-Transora (MSI EGV)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(1056)
+TMSS0000N-18:30:01 Processing Customer: 375H-Transora (HQ)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(0) Excluded(0)
+TMSS0000N-18:30:01 Processing Customer: 375N-Transora (NT)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(90)
+TMSS0000N-18:30:01 Processing Media: LB-Large Media Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(5)
+TMSS0000N-18:30:01 Processing Customer: 375U-Transora (Unix)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(48)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(24)
+TMSS0000N-18:30:01 Processing Customer: 385C-Trifus Vernon Hills
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(6)
+TMSS0000N-18:30:01 Processing Customer: 385S-Trifus (Savvis)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(4)
+TMSS0000N-18:30:01 Processing Customer: 387A-Littelfuse (AS400)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(48)
+TMSS0000N-18:30:01 Processing Customer: 387B-Littlelfuse (COLO)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(5)
+TMSS0000N-18:30:01 Processing Customer: 387C-Littelfuse (Chicago)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(137)
+TMSS0000N-18:30:01 Processing Customer: 387N-Littelfuse (Network)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(278)
+TMSS0000N-18:30:01 Processing Customer: 396M-Naperville S.D. 203
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: BX-Media Container
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(5)
+TMSS0000N-18:30:01 Processing Customer: 398E-ABN AMRO (Equinix)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(2020)
+TMSS0000N-18:30:01 Processing Customer: 402C-Empire Today, LLC
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LB-Large Media Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(43)
+TMSS0000N-18:30:01 Processing Customer: 402L-Luna Flooring
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: L3-LTO 3
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(9)
+TMSS0000N-18:30:01 Processing Media: L4-LTO 4
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(9)
+TMSS0000N-18:30:01 Processing Customer: 409A-Mesirow (Archive)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(2454)
+TMSS0000N-18:30:01 Processing Customer: 409B-Mesirow Bannockburn
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(86)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(54)
+TMSS0000N-18:30:01 Processing Customer: 409C-Mesirow (CommVault)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(2235)
+TMSS0000N-18:30:01 Processing Customer: 409H-Mesirow Highland Pk
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(296)
+TMSS0000N-18:30:01 Processing Customer: 409I-Mesirow (IPAM)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(498)
+TMSS0000N-18:30:01 Processing Customer: 409K-Mesirow (King Kong)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(6114)
+TMSS0000N-18:30:01 Processing Customer: 409L-Mesirow
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LB-Large Media Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(31)
+TMSS0000N-18:30:01 Processing Customer: 409O-Mesirow (Oak Brook)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(233)
+TMSS0000N-18:30:01 Processing Customer: 409R-Mesirow (Ray)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DV-DVD Spindle
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:01 Processing Customer: 409S-Mesirow (Sagitta)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: 8M-8MM Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(1245)
+TMSS0000N-18:30:01 Processing Customer: 428A-Dexis
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(100)
+TMSS0000N-18:30:01 Processing Customer: 428L-KaVo Technologies 
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(84)
+TMSS0000N-18:30:01 Processing Customer: 455P-Perfect! Wood
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(32)
+TMSS0000N-18:30:01 Processing Media: ML-MLR3 Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:01 Processing Customer: 469P-Crate & Barrel
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(96)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(11) Excluded(1925)
+TMSS0000I-18:30:01 -----------------------------------------------------------------------------------------------------------
+TMSS0000I-18:30:01 No.  Cus. Med. VolumeID   | To Location           | From Location         | Minutes  | Container          |
+TMSS0000I-18:30:01 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:01    1 469P LT   ED5015L5   | Alpha70    287        | No-Alloc   0          |     2224 |                      |
+TMSS0000N-18:30:01    2 469P LT   BIG571L5   | Alpha70    302        | No-Alloc   0          |     2224 |                      |
+TMSS0000N-18:30:01    3 469P LT   DEV814L3   | Alpha70    306        | No-Alloc   0          |     2224 |                      |
+TMSS0000N-18:30:01    4 469P LT   DEV735L3   | Alpha70    318        | No-Alloc   0          |     2224 |                      |
+TMSS0000N-18:30:01    5 469P LT   M22065L4   | Alpha70    324        | No-Alloc   0          |     2224 |                      |
+TMSS0000N-18:30:01    6 469P LT   OSM208L4   | Alpha70    325        | No-Alloc   0          |     2224 |                      |
+TMSS0000N-18:30:01    7 469P LT   CC0183L4   | Alpha70    328        | No-Alloc   0          |     2224 |                      |
+TMSS0000N-18:30:01    8 469P LT   ED5070L5   | Alpha70    333        | No-Alloc   0          |     2224 |                      |
+TMSS0000N-18:30:01    9 469P LT   ED5071L5   | Alpha70    335        | No-Alloc   0          |     2224 |                      |
+TMSS0000N-18:30:01   10 469P LT   ED5072L5   | Alpha70    336        | No-Alloc   0          |     2224 |                      |
+TMSS0000N-18:30:01   11 469P LT   ED5073L5   | Alpha70    343        | No-Alloc   0          |     2224 |                      |
+TMSS0000I-18:30:01 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:01 Processing Customer: 482L-CMI LaGrange
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: 4M-4MM Data Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: D3-DDS-3 Data Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(24)
+TMSS0000N-18:30:01 Processing Customer: 501G-Guggenheim (Geneva)
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(414)
+TMSS0000N-18:30:01 Processing Media: XL-X Large Media Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:01 Processing Customer: 503R-America Direct
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(4)
+TMSS0000N-18:30:01 Processing Customer: 523C-JCC Central
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: AI-AIT Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(23)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(38)
+TMSS0000N-18:30:01 Processing Customer: 527K-Accretive Kalamazoo
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(200)
+TMSS0000N-18:30:01 Processing Customer: 527L-Accretive LaSalle
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(56)
+TMSS0000N-18:30:01 Processing Customer: 539L-Clune Construction
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: LT-LTO Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(26)
+TMSS0000N-18:30:01 Processing Customer: 589A-TransUnion AIX
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: 4M-4MM DAT
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(10)
+TMSS0000N-18:30:01 Processing Media: 8M-8MM DAT
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(73)
+TMSS0000N-18:30:01 Processing Media: TR4-Transport Case 40
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(3)
+TMSS0000N-18:30:01 Processing Customer: 589C-TransUnion TMS
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(5) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: CC4-Closed Container 40
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:01 Processing Media: CT-34xx/35xx Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(2) Excluded(32007)
+TMSS0000I-18:30:01 -----------------------------------------------------------------------------------------------------------
+TMSS0000I-18:30:01 No.  Cus. Med. VolumeID   | To Location           | From Location         | Minutes  | Container          |
+TMSS0000I-18:30:01 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:01    1 589C CT   B91082     | Charlie43  6          | No-Alloc   0          |      221 |                      |
+TMSS0000N-18:30:01    2 589C CT   B91174     | Charlie43  140        | No-Alloc   0          |      221 |                      |
+TMSS0000I-18:30:01 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:01 Processing Media: DR-DR Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(3)
+TMSS0000N-18:30:01 Processing Media: TR4-Transport Case 40
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(11)
+TMSS0000N-18:30:01 Processing Media: TRL-Transfer Lewis Bin
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(70)
+TMSS0000N-18:30:01 Processing Customer: 589L-TransUnion Legal
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(2) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: CT-34xx/35xx Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(190)
+TMSS0000N-18:30:01 Processing Media: HD-Hard Drive
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:01 Processing Customer: 589T-TransUnion Tivoli
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: CT-34xx/35xx Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(1) Excluded(7430)
+TMSS0000I-18:30:01 -----------------------------------------------------------------------------------------------------------
+TMSS0000I-18:30:01 No.  Cus. Med. VolumeID   | To Location           | From Location         | Minutes  | Container          |
+TMSS0000I-18:30:01 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:01    1 589T CT   QB1162JO   | Delta44    399        | No-Alloc   0          |      221 |                      |
+TMSS0000I-18:30:01 -----------------------------------------------------------------------------------------------------------
+TMSS0000N-18:30:01 Processing Media: MB-Medium Media Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:01 Processing Media: TR4-Transport Case 40
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(14)
+TMSS0000N-18:30:01 Processing Customer: 589W-TransUnion WinTel
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DAT-4mm/8mm DAT DDS
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(11855)
+TMSS0000N-18:30:01 Processing Media: DR-DR Case
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(2)
+TMSS0000N-18:30:01 Processing Customer: 9000-Escrow Clients
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(0) Excluded(0)
+TMSS0000N-18:30:01 Processing Customer: 9999-TapeTrack Pty Ltd
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(0) Excluded(0)
+TMSS0000N-18:30:01 Processing Customer: BMW-BMW Media
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: CT-3592 Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(0)
+TMSS0000N-18:30:01 Processing Customer: DEMO-Demo Client
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: CT-3592 Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(139)
+TMSS0000N-18:30:01 Processing Customer: HUAW-Huawei
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: BX-Large Container
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:01 Processing Customer: MID-MID Media
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: CT-3592 Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(0)
+TMSS0000N-18:30:01 Processing Customer: MOTO-Motorola Solutions
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(1) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: BX-Large Container
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(1)
+TMSS0000N-18:30:01 Processing Customer: MSYS-Marketing Services
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(0) Excluded(0)
+TMSS0000N-18:30:01 Processing Customer: OSYS-Open Systems Media
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(3) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: 4M-4MM Data Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: 8M-8mm Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(0)
+TMSS0000N-18:30:01 Processing Media: DL-DLT Cartridge
+TMSS0000N-18:30:01 Listing Volumes
+TMSS0000N-18:30:01 Volume List successful: Volumes(0) Excluded(0)
+TMSS0000N-18:30:01 Processing Customer: TMS-Mainframe Tapes
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(0) Excluded(0)
+TMSS0000N-18:30:01 Processing Customer: TSM-Tivoli Media
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(0) Excluded(0)
+TMSS0000N-18:30:01 Processing Customer: TU-TransUnion Demo
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(0) Excluded(0)
+TMSS0000N-18:30:01 Processing Customer: VLTA-Vault A
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(0) Excluded(0)
+TMSS0000N-18:30:01 Processing Customer: VLTD-Vault D
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(0) Excluded(0)
+TMSS0000N-18:30:01 Processing Customer: VLTN-Vault N
+TMSS0000N-18:30:01 Listing Media
+TMSS0000N-18:30:01 Media List successful: Media(0) Excluded(0)
+TMSS0000N-18:30:01 Closing connection to TapeTrack Server
+TMSS0000N-18:30:01 Session Statistics:
+TMSS0000N-18:30:01 	Seconds Connected: 1
+TMSS0000N-18:30:01 	 Queies Completed: 1035
+TMSS0000N-18:30:01 	       Bytes Sent: 36876
+TMSS0000N-18:30:01 	   Bytes Received: 71844
+TMSS9997N-18:30:01 Program Complete
+TMSS9998N-18:30:01 Elapsed time 0 minutes and 1 seconds
