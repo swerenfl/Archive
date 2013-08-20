@@ -17,6 +17,7 @@ class Benchmark
 		while (true)
 		{
 			double x = Math.sqrt(index);
+//			double y = (9 * 9); Activity 1 Hour 8
 			GregorianCalendar now = new GregorianCalendar();
 			if (now.get(Calendar.MINUTE) >= nextMinute)
 			{
