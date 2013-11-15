@@ -31,11 +31,21 @@ public class Game
 			} 	while (endGame = false);
 	}
 	
+	public void resetVars()
+	{
+		row = 0;
+		col = 0;
+		bombRow = 0;
+		bombCol = 0;
+		turn = 0;
+		maxTurns = 81;
+		endGame = false;
+	}
+	
 	//Game Win Message Method
 	public void gameWinMessage()
 	{
-		turn = 0;
-		maxTurns = 0;
+		resetVars();
 		System.out.println("Congratulations! You have beaten the hardest game on the planet!");
 		sleepMe();
 		getInput("Press Enter to Play Again!");
@@ -47,8 +57,7 @@ public class Game
 	public void gameLose()
 	{
 		//Prompts user to play again
-		turn = 0;
-		maxTurns = 0;
+		resetVars();
 		getInput("Press Enter to Play Again!");
 		clearScreen();
 		clearBoard();
@@ -294,6 +303,7 @@ public class Game
 		if (bombBoard[bombRow][bombCol] == "@") 
 		{
 			System.out.println("You have landed on a bomb!");
+			gameLose();
 		}
 		if (bombRow < 8)
 		{
