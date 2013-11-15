@@ -187,7 +187,7 @@ public class FileScanner
 					Calendar currentDate = Calendar.getInstance();
 					
 					final String username = "richard.staehler@gmail.com";
-					final String password = "Ijnygv12";
+					final String password = "xxxxxx";
 					
 					String host = "smtp.gmail.com";
 					String port = "587";

@@ -125,6 +125,7 @@ public class Handles
 						{
 							String subCust 				= cust.substring(46,64);
 							qmarks[i] 					= subCust;
+							
 						}
 						String updateString 		= "REPLACE INTO info" + " (emp_name) " + "VALUE ('" + (qmarks[i]) + "');";
 						logger.info(updateString);
@@ -226,7 +227,7 @@ public class Handles
 					Calendar currentDate = Calendar.getInstance();
 					
 					final String username = "richard.staehler@gmail.com";
-					final String password = "Ijnygv12";
+					final String password = "xxxxxxx";
 					
 					String host = "smtp.gmail.com";
 					String port = "587";
