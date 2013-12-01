@@ -1,2 +1,0 @@
-Wed Nov 13 11:57:33 CST 2013 WARNING Cannot connect to database server
-Wed Nov 13 11:57:33 CST 2013 WARNING General Error:null
