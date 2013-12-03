@@ -3,7 +3,9 @@ package com.hmclaren.mpgcalculator;
 import java.text.DecimalFormat;
 import android.os.Bundle;
 import android.app.*;
+import android.content.Context;
 import android.view.*;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.*;
 
 public class MPGCalculator extends Activity
@@ -38,6 +40,13 @@ public class MPGCalculator extends Activity
 					gasCost_double = Double.parseDouble(gasCost.getText().toString());
 					finalGal = miles_double / mpg_double;
 					finalCal = finalGal * gasCost_double;
+					
+					InputMethodManager inputManager = (InputMethodManager)
+                            getSystemService(Context.INPUT_METHOD_SERVICE); 
+
+					inputManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(),
+                               InputMethodManager.HIDE_NOT_ALWAYS);
+					
 					DecimalFormat df = new DecimalFormat("#.00");
 					totalGasCost.setText(String.valueOf("$" + df.format(finalCal)));
 					totalGallons.setText(String.valueOf(df.format(finalGal)));
