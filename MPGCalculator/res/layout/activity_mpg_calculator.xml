@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MPGCalculator" >
+
+    <TextView
+        android:id="@+id/milesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/calcButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/miles_text_view" />
+
+    <EditText
+        android:id="@+id/mpgEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mpgTextView"
+        android:layout_alignLeft="@+id/milesEditText"
+        android:ems="5"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/mpgTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/milesTextView"
+        android:layout_below="@+id/milesEditText"
+        android:layout_marginTop="20dp"
+        android:text="@string/mpg_text_view" />
+
+    <TextView
+        android:id="@+id/gasCostTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/gasCostEditText"
+        android:layout_alignLeft="@+id/mpgTextView"
+        android:text="@string/gascost_text_view" />
+
+    <EditText
+        android:id="@+id/gasCostEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mpgEditText"
+        android:layout_below="@+id/mpgEditText"
+        android:ems="5"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/milesEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/milesTextView"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/milesTextView"
+        android:ems="5"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/calcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/gasCostTextView"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="38dp"
+        android:onClick="calculateAll"
+        android:text="@string/total_button" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/totalTextView"
+        android:layout_alignRight="@+id/gasCostEditText"
+        android:onClick="resetVals"
+        android:text="@string/reset_button" />
+
+    <TextView
+        android:id="@+id/totalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/galTotalTextView"
+        android:layout_below="@+id/calcButton"
+        android:layout_marginTop="70dp"
+        android:text="@string/total_text_view" />
+
+    <TextView
+        android:id="@+id/galTotalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/calcButton"
+        android:layout_below="@+id/totalTextView"
+        android:layout_marginTop="20dp"
+        android:text="@string/galTotal_text_view" />
+
+    <EditText
+        android:id="@+id/totalGasEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/totalTextView"
+        android:layout_alignRight="@+id/resetButton"
+        android:inputType="numberDecimal"
+        android:ems="5" />
+
+    <EditText
+        android:id="@+id/totalGalEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/galTotalTextView"
+        android:layout_alignLeft="@+id/totalGasEditText"
+        android:inputType="numberDecimal"
+        android:ems="5" />
+
+</RelativeLayout>

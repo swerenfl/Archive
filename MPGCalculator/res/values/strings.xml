@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MPG Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="miles_text_view">Enter Number of Miles:</string>
+    <string name="mpg_text_view">Enter Your Cars MPG:</string>
+    <string name="gascost_text_view">Enter Cost of Gas:</string>
+    <string name="total_text_view">Total Cost of Gas:</string>
+    <string name="galTotal_text_view">Total Gallons of Gas:</string>
+    <string name="total_button">Calculate</string>
+    <string name="reset_button">Reset</string>
+
+</resources>
