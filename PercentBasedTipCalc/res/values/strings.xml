@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Percent Tip Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_text">Heather McLaren\'s Percent Based Tip Calculator</string>
+    <string name="pic_content_desc">Droid Eating Key Lime Pie</string>
+    <string name="total_bill">Total Bill:</string>
+    <string name="tip_amount">Tip Amount:</string>
+    <string name="total_tip">Total Tip:</string>
+    <string name="total_bill_plus_tip">Total Bill Plus Tip:</string>
+    <string name="calcTip">Calculate Tip</string>
+    <string name="resetVals">Reset</string>
+    <string name="fivePer">5%</string>
+    <string name="tenPer">10%</string>
+    <string name="fifteenPer">15%</string>
+    <string name="twentyPer">20%</string>
+    <string name="tip">20%</string>
+
+</resources>
