@@ -57,6 +57,9 @@ public class Heather_MonsterDriver // <-- Step 2: Rename class
 	//Step 8: Ask for User Input (with Validation)
 	public static void userInput()
 	{
+		myMonstersNames = new String[3];
+		myMonstersHP = new int[3];
+		myMonstersAttack = new int[3];
 		try
 		{
 			System.out.println("============================================================================");
@@ -84,17 +87,18 @@ public class Heather_MonsterDriver // <-- Step 2: Rename class
 				clearScreen();
 				userInput();
 			}
-			
-			System.out.print("Enter the second monster's name: ");
-			myMonstersNames[1] = user_input.next();
-			
-			System.out.print("Enter the second monster's starting HP: ");
-			myMonstersHP[1] = user_input.nextInt();
-			
-			System.out.print("Enter the amount of HP the monster will lose when attacked: ");
-			myMonstersAttack[1] = user_input.nextInt();
-			System.out.println();
-			
+			else
+			{
+				System.out.print("Enter the second monster's name: ");
+				myMonstersNames[1] = user_input.next();
+				
+				System.out.print("Enter the second monster's starting HP: ");
+				myMonstersHP[1] = user_input.nextInt();
+				
+				System.out.print("Enter the amount of HP the monster will lose when attacked: ");
+				myMonstersAttack[1] = user_input.nextInt();
+				System.out.println();
+			}
 			if (myMonstersAttack[1] > myMonstersHP[1])
 			{
 				System.out.println();
@@ -103,17 +107,18 @@ public class Heather_MonsterDriver // <-- Step 2: Rename class
 				clearScreen();
 				userInput();
 			}
-			
-			System.out.print("Enter the third monster's name: ");
-			myMonstersNames[2] = user_input.next();
-			
-			System.out.print("Enter the third monster's starting HP: ");
-			myMonstersHP[2] = user_input.nextInt();
-			
-			System.out.print("Enter the amount of HP the monster will lose when attacked: ");
-			myMonstersAttack[2] = user_input.nextInt();
-			System.out.println();
-			
+			else
+			{
+				System.out.print("Enter the third monster's name: ");
+				myMonstersNames[2] = user_input.next();
+				
+				System.out.print("Enter the third monster's starting HP: ");
+				myMonstersHP[2] = user_input.nextInt();
+				
+				System.out.print("Enter the amount of HP the monster will lose when attacked: ");
+				myMonstersAttack[2] = user_input.nextInt();
+				System.out.println();
+			}
 			if (myMonstersAttack[2] > myMonstersHP[2])
 			{
 				System.out.println();
@@ -122,7 +127,11 @@ public class Heather_MonsterDriver // <-- Step 2: Rename class
 				clearScreen();
 				userInput();
 			}
-			clearScreen();
+			else
+			{
+				clearScreen();
+			}
+
 		}
 		catch (Exception e)
 		{
