@@ -229,7 +229,14 @@ public class Heather_MonsterDriver // <-- Step 2: Rename class
 		//Here is the for loop (for the Arrays)
 		for (int i = 0; i < myMonstersNames.length; i++)
 		{
-			System.out.println(i+1 + "\t\t" + myMonstersNames[i].substring(0, 7) + "\t\t" + myMonstersHP[i] + "\t\t" + myMonstersAttack[i] + "\t\t" + myMonsterAlive[i]);
+			if (myMonstersNames[i].length() <= 7)
+			{
+				System.out.println(i+1 + "\t\t" + myMonstersNames[i] + "\t\t" + myMonstersHP[i] + "\t\t" + myMonstersAttack[i] + "\t\t" + myMonsterAlive[i]);
+			}
+			else
+			{
+				System.out.println(i+1 + "\t\t" + myMonstersNames[i].substring(0,7) + "\t\t" + myMonstersHP[i] + "\t\t" + myMonstersAttack[i] + "\t\t" + myMonsterAlive[i]);
+			}
 		}
 	}
 	
