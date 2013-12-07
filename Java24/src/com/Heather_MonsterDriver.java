@@ -226,6 +226,7 @@ public class Heather_MonsterDriver // <-- Step 2: Rename class
 		System.out.println("ID\t\tName\t\tHealth\t\tAttack\t\tAlive");
 		System.out.println("----------------------------------------------------------------------");
 		
+		//Here is the for loop (for the Arrays)
 		for (int i = 0; i < myMonstersNames.length; i++)
 		{
 			System.out.println(i+1 + "\t\t" + myMonstersNames[i].substring(0, 7) + "\t\t" + myMonstersHP[i] + "\t\t" + myMonstersAttack[i] + "\t\t" + myMonsterAlive[i]);
