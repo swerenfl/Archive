@@ -1,3 +1,4 @@
+// Today is 11/2/18
 package com.hmclaren.tipcalculator;
 
 import android.os.Bundle;
